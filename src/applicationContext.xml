@@ -17,6 +17,11 @@
 <bean id="myCricketCoach" class="com.spring1.CricketCoach"> 
 <!-- set up setter injection -->
 	<property name="fortuneService" ref="myFortune"/>
+	
+	<!-- inject literal values -->
+	<property name="emailAddress" value="cwh8b4@gmail.com"/>
+	<property name="team" value="Sunrisers Hyderabad"/>
+
 
 </bean>
 	<!-- add entry to enable component scanning -->
